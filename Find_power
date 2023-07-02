@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 void main() {
-  int base = 3, exponent = 4;
+  int base, exponent;
+  printf("Enter base and exponent: \n");
+  scanf("%d%d",&base,&exponent);
   int result;
   result = pow(base, exponent);
   printf("Result = %d", result);
