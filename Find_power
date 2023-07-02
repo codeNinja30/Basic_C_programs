@@ -1,0 +1,9 @@
+#include <math.h>
+#include <stdio.h>
+
+void main() {
+  int base = 3, exponent = 4;
+  int result;
+  result = pow(base, exponent);
+  printf("Result = %d", result);
+}
