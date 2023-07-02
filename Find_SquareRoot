@@ -1,0 +1,7 @@
+void main() {
+  int number, result;
+  printf("Enter a number: %d\n");
+  scanf("%d",&number);
+  result = sqrt(number);
+  printf("Square root of %d = %d\n", number, result);
+}
